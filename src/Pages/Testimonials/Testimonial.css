@@ -1,0 +1,27 @@
+/* Default styles for larger screens */
+.swiper {
+	max-width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+
+	/* Center slide text vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Media query for screens with a maximum width of 768px (typical mobile devices)*/
+@media (max-width: 768px) {
+	.swiper {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.swiper-slide {
+		font-size: 16px;
+	}
+}

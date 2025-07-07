@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   font-family: "Work Sans", sans-serif;
+}
+.bg-element {
+   background-image: url("./assets/dot.png");
+   background-position: bottom left;
+   mix-blend-mode: multiply;
+   background-repeat: no-repeat;
+   z-index: 99;
+   position: fixed;
+   opacity: 0.3;
+   left: 0;
+   top: 1000;
+   width: 24%;
+   height: 31%;
+}
+
+@layer base {
+   .btn-primary {
+      @apply inline-flex items-center justify-center uppercase px-6 sm:px-6 md:px-[30px] 2xl:px-[34px] py-[14px] 2xl:py-[18px] text-base font-semibold leading-6  text-[black] bg-[white] border border-transparent rounded-full md:w-auto hover:bg-indigo-500 duration-500;
+   }
+   .btn-secondary {
+      @apply uppercase px-6 sm:px-6 md:px-[30px] 2xl:px-[34px] py-[14px] 2xl:py-[18px] text-base font-semibold leading-6  text-white hover:text-black bg-transparent border-2 rounded-full md:w-auto hover:bg-indigo-500 duration-500;
+   }
+   .btn-red {
+      @apply uppercase px-[20px] 2xl:px-[26px] text-[16px] 2xl:text-[20px] py-[8px] 2xl:py-[14px] bg-[#db3647] text-white rounded-full border-2 border-[#db3647] hover:bg-transparent font-bold duration-500;
+   }
+}
+/* *,
+*::before,
+*::after {
+	box-sizing: border-box;
+	outline: 1px soldi red !important;
+	background: rgb(0 100 0 / 0.1) !important;
+	border: red !important;
+} */
+/* * {
+	outline: 1px solid red;
+} */
