@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col md:space-y-10 md:pl-0  b">
           <h3 className="font-semibold">Contact Us</h3>
           <p>Via Trieste, 140/A, 30175 Venezia VE</p>
-          <p>itsmartsolutionsbd@gmail.com</p>
+          <p>farhan.abdullah94@gmail.com</p>
           <p>+393896686583</p>
         </div>
         <div className="border border-zinc-500 border-x-[0.5rem] my-4 w-[10rem] mx-auto md:hidden"></div>
